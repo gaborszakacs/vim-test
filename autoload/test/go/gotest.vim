@@ -26,7 +26,7 @@ function! test#go#gotest#build_args(args) abort
 endfunction
 
 function! test#go#gotest#executable() abort
-  return 'go test'
+  return 'gotest'
 endfunction
 
 function! s:nearest_test(position) abort
